@@ -2,7 +2,7 @@ package jp.azusatechacademy.sugimoto.javalog;
 
 import android.util.Log;
 
-abstract  class Animal {
+abstract class Animal {
     String name;
     int age;
 

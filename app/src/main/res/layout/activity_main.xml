@@ -10,10 +10,11 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     tools:paddingTop="16dp"
-    tools:context="jp.azusatechacademy.sugimoto.javalog.MainActivity"
+    tools:context="jp.azusatechacademy.sugimoto.javalog.MainActivity">
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Hello Android!"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Android!"
+        android:textSize="40sp" />
 </LinearLayout>
