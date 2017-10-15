@@ -4,6 +4,7 @@ import android.util.Log;
 
 class Human extends Animal implements Thinkable {
     static String to_jp = "人";
+    String hobby;
 
     public Human(String name, int age) {
         this.name = name;
@@ -16,6 +17,6 @@ class Human extends Animal implements Thinkable {
 
     @Override
     public void think() {
-        Log.d("javatest", this.name + "(" + this.age + "歳)" + "「について考える」");
+        Log.d("javatest", "私は" + "ドライブ" + "ついて考える");
     }
 }
