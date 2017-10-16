@@ -6,9 +6,10 @@ class Human extends Animal implements Thinkable {
     static String to_jp = "人";
     String hobby;
 
-    public Human(String name, int age) {
+    public Human(String name, int age, String hobby) {
         this.name = name;
         this.age = age;
+        this.hobby = hobby;
     }
 
     public void say() {
@@ -17,6 +18,6 @@ class Human extends Animal implements Thinkable {
 
     @Override
     public void think() {
-        Log.d("javatest", "私は" + "ドライブ" + "ついて考える");
+        Log.d("javatest", "私は" + "this.hobby" + "ついて考える");
     }
 }
